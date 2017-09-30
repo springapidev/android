@@ -20,6 +20,9 @@ private Button btnMain;
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(MainActivity.this, SecondAcitity.class);
+                intent.putExtra("v1","Reza");
+                intent.putExtra("v2","true");
+                intent.putExtra("v3","500.0");
              startActivity(intent);
 
             }
