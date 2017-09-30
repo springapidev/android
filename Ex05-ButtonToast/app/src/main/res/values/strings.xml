@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ex05-Button Toast</string>
+    <string name="show_toast_msg">I am  toast</string>
+</resources>
