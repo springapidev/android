@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<!-- Vertical Orientation is set -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.coderbd.ex08_linearlayout.MainActivity">
+    android:orientation="vertical">
+
+    <!-- Text Displayed At Top -->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Linear Layout (Without Weight)"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"/>
 
-</android.support.constraint.ConstraintLayout>
+    <!-- Button Used -->
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+        android:background="#009300"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 2"
+        android:background="#e6cf00"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 3"
+        android:background="#0472f9"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 4"
+        android:background="#e100d5"
+        android:layout_weight="1"/>
+</LinearLayout>
