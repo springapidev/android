@@ -17,7 +17,7 @@ import android.widget.Toast;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-    EditText id, contactName, mobileno;
+    EditText id, contactName, mobileno, emaill;
     ListView listviews;
     Button btnAd;
 
@@ -26,10 +26,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        id = (EditText) findViewById(R.id.ids);
+
 
         contactName = (EditText) findViewById(R.id.name);
         mobileno = (EditText) findViewById(R.id.mobile);
+        emaill = (EditText) findViewById(R.id.email);
+
         listviews = (ListView) findViewById(R.id.listview);
         btnAd = (Button) findViewById(R.id.btnAdd);
         loadContacts();
@@ -39,9 +41,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                // String idss = id.getText().toString();
                 String name = contactName.getText().toString();
                 String mobilen = mobileno.getText().toString();
+                String emaix = emaill.getText().toString();
                 if (name.length() > 0) {
                     DatabaseHandler db = new DatabaseHandler(getApplicationContext());
-                    db.addContact(new Contact(name, mobilen));
+                    db.addContact(new Contact(name, mobilen,emaix));
 
                     //set text blank
                     contactName.setText("");
@@ -51,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                             getSystemService(Context.INPUT_METHOD_SERVICE);
                     imm.hideSoftInputFromWindow(contactName.getWindowToken(), 0);
                     imm.hideSoftInputFromWindow(mobileno.getWindowToken(), 0);
+                    imm.hideSoftInputFromWindow(emaill.getWindowToken(), 0);
                     loadContacts();
                 } else {
 
@@ -65,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 DatabaseHandler db = new DatabaseHandler(getApplicationContext());
-                db.deleteContact(new Contact(position));
+                db.deleteContact(new Contact(position+1));
                 Toast.makeText(MainActivity.this,
                         "Item in position " + position + " deleted",
                         Toast.LENGTH_SHORT).show();

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="15">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Daily Schedule"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:layout_weight="0"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="@color/prompt_label"/>
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <requestFocus/>
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Staring Time:"
+            android:textColor="@color/prompt_label"/>
+        <EditText
+            android:id="@+id/start_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <requestFocus/>
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Ending Time:"
+            android:textColor="@color/prompt_label"/>
+        <EditText
+            android:id="@+id/end_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <requestFocus/>
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textColor="@color/prompt_label"/>
+        <CheckBox
+            android:id="@+id/chk_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

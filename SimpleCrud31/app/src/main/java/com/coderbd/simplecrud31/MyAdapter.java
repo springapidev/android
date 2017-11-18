@@ -44,11 +44,12 @@ LayoutInflater inflater;
        // TextView ids=(TextView)v.findViewById(R.id.view_id);
         TextView name=(TextView)v.findViewById(R.id.view_name);
         TextView mobile=(TextView)v.findViewById(R.id.view_mobile);
+        TextView email=(TextView)v.findViewById(R.id.view_email);
         // set Text
        // ids.setText(contactList.get(i).getID());
         name.setText(contactList.get(i).getName());
         mobile.setText(contactList.get(i).getPhoneNumber());
-
+        email.setText(contactList.get(i).getEmail());
         return v;
     }
 }
