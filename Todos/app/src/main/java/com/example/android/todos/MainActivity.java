@@ -15,11 +15,8 @@ public class MainActivity extends AppCompatActivity {
     EditText ite;
     Button btn;
     ListView listView;
-
     ArrayList<String> list;
     ArrayAdapter<String> arrayAdapter;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,11 +27,8 @@ public class MainActivity extends AppCompatActivity {
         listView=(ListView)findViewById(R.id.itemlistView);
 
         list=new ArrayList<String>();
-
         arrayAdapter=new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1, list);
         listView.setAdapter(arrayAdapter);
-
-
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,8 +58,6 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 list.remove(i);
                 arrayAdapter.notifyDataSetChanged();
-
-
             }
         });
     }

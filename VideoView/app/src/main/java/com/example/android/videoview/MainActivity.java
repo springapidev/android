@@ -16,16 +16,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         simpleVideoView = (VideoView) findViewById(R.id.simpleVideoView); // initiate a video view
-/*
+
         Uri uri = Uri.parse("http://0.s3.envato.com/h264-video-previews/80fad324-9db4-11e3-bf3d-0050569255a8/490527.mp4");
         simpleVideoView.setVideoURI(uri);
+        simpleVideoView.setMediaController(new MediaController(this));
         simpleVideoView.start();
-*/
 
 
+/*
         simpleVideoView.setVideoURI(Uri.parse("android.resource://" +getPackageName()+ "/"+R.raw.testvvv));
         simpleVideoView.setMediaController(new MediaController(this));
         simpleVideoView.requestFocus();
         simpleVideoView.start();
+        */
     }
 }
