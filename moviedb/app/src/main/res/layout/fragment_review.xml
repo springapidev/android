@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.toracode.moviedb.fragments.ReviewFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/reviewRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="3dp">
+
+            <Button
+                android:id="@+id/loadMoreButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha=".7"
+                android:background="@android:color/black"
+                android:text="@string/btn_see_more"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+        </android.support.v7.widget.CardView>
+
+        <include
+            android:id="@+id/reviewBoxLayout"
+            layout="@layout/review_box_layout"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Register to post review" />
+    </LinearLayout>
+</LinearLayout>

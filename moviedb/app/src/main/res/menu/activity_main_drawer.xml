@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="@string/homeText" />
+        <item
+            android:id="@+id/nav_my_list"
+            android:icon="@mipmap/ic_bookmark_white_24dp"
+            android:title="@string/myListsText" />
+        <item
+            android:id="@+id/nav_my_reviews"
+            android:icon="@mipmap/ic_bookmark_white_24dp"
+            android:title="@string/myReviewsText" />
+        <item
+            android:id="@+id/nav_offline_news"
+            android:icon="@mipmap/ic_save_white_24dp"
+            android:title="@string/offlineMoviesText" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@mipmap/ic_share_white_24dp"
+            android:title="@string/shareText" />
+
+    </group>
+
+
+</menu>

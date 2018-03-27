@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">SMDB</string>
+    <string name="app_slogan">হ্যাঁ ভাই, বাংলা নতুন মুভির খবরাখবর জানুন..</string>
+    <string name="app_base_url">https://play.google.com/store/apps/details?id=</string>
+    <string name="shareAppText">সব ধরনের মুভির খবরাখবর বিস্তারিত জানুন সম্পূর্ন বাংলাতে..</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="navigation_drawer_open">ড্রয়ার ওপেন করুন</string>
+    <string name="navigation_drawer_close">ড্রয়ার বন্ধ করুন</string>
+
+    <string name="hourBefore"> ঘন্টা পূর্বে</string>
+
+    <string-array name="categories">
+        <item>হোম</item>
+        <item>মুভি</item>
+        <item>টিভি সিরিজ</item>
+    </string-array>
+    <string-array name="categories_url_attr">
+        <item>featured</item>
+        <item>movie</item>
+        <item>tvseries</item>
+    </string-array>
+    <string-array name="colors">
+        <item>#23FFFF</item>
+        <item>#23FFFF</item>
+        <item>#4D4D4D</item>
+    </string-array>
+
+    <string-array name="list_types">
+        <item>Private</item>
+        <item>Public</item>
+    </string-array>
+
+    <string name="releaseDateTextBangla">রিলিজ ডেটঃ </string>
+    <string name="directorTextBangla">পরিচালকঃ </string>
+    <string name="castTextBangla">অভিনেতা/অভিনেত্রীঃ </string>
+    <string name="categoryTextBangla">ক্যাটেগরিঃ</string>
+    <string name="studioTextBangla">স্টুডিও:</string>
+
+    <string name="title_activity_preference">Preference</string>
+    <string name="title_activity_details"></string>
+    <string name="action_share">Share</string>
+    <string name="action_bookmark_this">Bookmark this</string>
+    <string name="btn_see_more">..আরো দেখুন..</string>
+    <string name="message_loading">লোড হচ্ছে...</string>
+    <string name="title_activity_bookmark">আমার বুকমার্কগুলো</string>
+    <string name="action_save">Save Offline</string>
+    <string name="title_activity_offline_news"></string>
+    <string name="action_change_font_size">Change Font Size</string>
+
+    <string name="featured_saved_text">আপনার সংরক্ষনকৃত মুভি</string>
+    <string name="featured_my_list_text">আমার লিস্টগুলো</string>
+    <string name="featured_recent_list_text">সাম্প্রতিক লিস্টগুলো</string>
+
+    <string name="slider_headLine_bangla">থিয়েটারে চলছে</string>
+    <string name="featured_featured_text">ফিচারড মুভি</string>
+
+    <string name="addedToWishlistText">উইশলিস্টে যুক্ত করা হয়েছে</string>
+    <string name="addedToOfflineText">অফলাইনে সংরক্ষণ করা হয়েছে</string>
+    <string name="homeText">হোম</string>
+    <string name="offlineMoviesText">অফলাইন মুভিস</string>
+    <string name="shareText">শেয়ার করুন</string>
+
+    <string name="waitingText">অপেক্ষারত</string>
+    <string name="action_about">About</string>
+    <string name="filmRatingText">"ফিল্ম রেটিং: "</string>
+    <string name="postReviewText">রিভিউ দিন:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="alreadyPostedReviewTitle">
+        দুঃখিত
+    </string>
+    <string name="alreadyPostedReviewMessage">
+        আপনি এখানে অলরেডি একবার রিভিউ দিয়েছেন।
+    </string>
+    <string name="movieOrUserNotFoundText">
+        মুভি খুঁজে পাওয়া যায় নি! অথবা আপনাকে খুঁজে পাওয়া যায়নি!
+    </string>
+    <string name="reviewSuccessTitle">
+        সফল হয়েছে
+    </string>
+    <string name="reviewSuccessMessage">
+        আপনার রিভিউটি গৃহীত হয়েছে। রিভিউ দেয়ার জন্য আপনাকে ধন্যবাদ।
+    </string>
+    <string name="loadingText">
+        দয়া করে অপেক্ষা করুন..
+    </string>
+    <string name="title_activity_list_items">List Items</string>
+    <string name="title_activity_my_reviews">আমার রিভিউগুলো</string>
+    <string name="myReviewsText">আমার রিভিউগুলো</string>
+    <string name="myListsText">আমার লিস্টগুলো</string>
+    <string name="title_activity_my_list">আমার লিস্টগুলো</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="title_activity_list_fragments">ListFragmentsActivity</string>
+
+
+</resources>

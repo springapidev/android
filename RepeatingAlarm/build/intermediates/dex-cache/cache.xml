@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\a0de32edad9b806ae0256fa984ce68bb6377a073\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbb7b4fe812b3ec5efb43734d0103a4216bf5b10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\8070461210d4813df494976e493e8bd9cdc070ba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_29b8d7914d0b89f150490e56bf050a3a63691222\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\git\android\RepeatingAlarm\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ca294778ce434ad4fd941d94e6e56043046b16ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rajail Islam\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.1.0_ac7af958c867ac510f5da4b8ace8f39c0ad4237b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\702b95d4cfac9b5d56c7a45b362d4a7b74bba5d1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bb1710db7e27d63d45c7599e5b98a6c3c21b8244\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\acba756de3be97cda9cfd612bea38191f6742203\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9834bd9d7d4112f587bb9eb76c35feccf4beb796\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\53a6c53d285a8050515d88407f6a60d646878fd3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3a4cf38b752ac554f1ef1b2468752f7c4ddc1970\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\96661ac4d13160792d45ad9735143bbffdfdbc2d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a3e3d3c94305c63a7d6d267cd2b54ec5f9222d31">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dbfa36368a46695005c113cf0f14b2c0e31c1630\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rajail Islam\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.0.0_f805256d7953575969b795be18047b66830cb053\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\c8422eb673b0635cb161ae9484e171e1e9a3f970\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef955bf30b5435d9ca9fa6a9433531758c9a2690\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\369d462d6ee8f65667faa7c22a88d22e3dc93ce3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_299550f8f217e227021a2bf5d9e0cf926c661bfd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\ec3a250da3144dae69f1f31d5849374abfb1a57a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_540f76163e9402a25208b1923177ab088d5267a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\3a5f7b5373467964a44e07612e77fa93bfb950e1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b866dc91494a31fbf9862e8a9af34d1ec7121b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rajail Islam\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.0.0_663d2c26c4f969cd8736928e2f0050b82a4f6e75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\5e3f20de7f7f31447bede1c2e6c22fbebc347e3c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3d8f545a72e5ce3e47f750f9664f20e7e4ac0ffd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\git\android\RepeatingAlarm\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4ae60da4835e6c966ca63a828ceae751fcea83d">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_166543a2e0589a24549ff94a53cfa66d3a9542a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\c-drive\android-avd\.android\build-cache\0da5dfda598e0509407ed99e6366aa8df8afd354\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="E:\git\android\RepeatingAlarm\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7ea5960dbdc5adc3643be4dfa31181ca31e671c1\classes.dex" />
+    </item>
+
+</items>

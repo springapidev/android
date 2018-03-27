@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Easy Silence</string>
+    <string name="internet_error">Internet inActive!!!</string>
+    <string name="internet_status">Internet Active!!!</string>
+</resources>

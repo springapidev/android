@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f50057</color>
+    <color name="colorPrimaryDark">#c51162</color>
+    <color name="colorAccent">#4CAF50</color>
+
+    <color name="colorTitleText">@android:color/white</color>
+    <color name="textColor">@android:color/white</color>
+    <color name="colorRatingText">#512DA8</color>
+
+    <color name="drawer_background_color">@android:color/white</color>
+
+    <color name="loadToastBackgroundColor">#009688</color>
+    <color name="loadProgressColor">#FF4081</color>
+    <color name="loadToastTextColor">@android:color/white</color>
+
+    <color name="sliderBorderColor">@color/colorPrimary</color>
+
+
+</resources>

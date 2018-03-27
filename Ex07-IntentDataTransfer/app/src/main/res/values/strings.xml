@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Ex07-More Activities</string>
-    <string name="activity_main_title">Main Activity</string>
-    <string name="activity_second_title">Second Activity</string>
-    <string name="activity_main_btn">Go to Second Activity</string>
-    <string name="activity_second_btn">Go to Main Activity</string>
-    <string name="activity_main_des">It is main actvity, we can browse one activty to another activty using Intent</string>
-    <string name="activity_second_des">It is Second actvity, we can retur second activty to main activty using Intent</string>
-</resources>

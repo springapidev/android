@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/common_action_bar_splitter" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/button" android:background="@drawable/on_proceed" android:clickable="true" android:layout_width="280.0dip" android:layout_height="60.0dip" android:layout_marginBottom="15.0dip" android:text="Click here to set Timings of Salah" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="baseUrl">https://smdbmoviedatabase.herokuapp.com/api/</string>
+    <string name="categoryUrl">http://blog.toracode.net/bdbn/category/list.json</string>
+
+    <string name="singleNewsBaseUrl">http://bdbn.news/newses/</string>
+
+    <string name="sliderContentUrl">https://smdbmoviedatabase.herokuapp.com/api/movie/upcoming</string>
+    <string name="featuredContentUrl">https://smdbmoviedatabase.herokuapp.com/api/movie/featured</string>
+</resources>

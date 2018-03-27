@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:17:1-40:12
+	package
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:18:5-49
+	android:versionName
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:20:5-30
+		INJECTED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:19:5-28
+		INJECTED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:17:11-69
+application
+ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:24:5-37:19
+MERGED from [com.android.support:gridlayout-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\96661ac4d13160792d45ad9735143bbffdfdbc2d\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\c8422eb673b0635cb161ae9484e171e1e9a3f970\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\702b95d4cfac9b5d56c7a45b362d4a7b74bba5d1\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] D:\c-drive\android-avd\.android\build-cache\5e3f20de7f7f31447bede1c2e6c22fbebc347e3c\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] D:\c-drive\android-avd\.android\build-cache\8070461210d4813df494976e493e8bd9cdc070ba\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] D:\c-drive\android-avd\.android\build-cache\acba756de3be97cda9cfd612bea38191f6742203\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] D:\c-drive\android-avd\.android\build-cache\ec3a250da3144dae69f1f31d5849374abfb1a57a\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] D:\c-drive\android-avd\.android\build-cache\3a5f7b5373467964a44e07612e77fa93bfb950e1\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] D:\c-drive\android-avd\.android\build-cache\53a6c53d285a8050515d88407f6a60d646878fd3\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] D:\c-drive\android-avd\.android\build-cache\a0de32edad9b806ae0256fa984ce68bb6377a073\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] D:\c-drive\android-avd\.android\build-cache\369d462d6ee8f65667faa7c22a88d22e3dc93ce3\output\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] D:\c-drive\android-avd\.android\build-cache\0da5dfda598e0509407ed99e6366aa8df8afd354\output\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:25:9-41
+	android:allowBackup
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:24:18-44
+	android:icon
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:26:9-45
+	android:theme
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:27:9-40
+activity#com.example.android.repeatingalarm.MainActivity
+ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:29:9-36:20
+	android:label
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:30:19-51
+	android:uiOptions
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:31:19-63
+	android:name
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:29:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml:34:27-74
+uses-sdk
+INJECTED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:gridlayout-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\96661ac4d13160792d45ad9735143bbffdfdbc2d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\c8422eb673b0635cb161ae9484e171e1e9a3f970\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\702b95d4cfac9b5d56c7a45b362d4a7b74bba5d1\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] D:\c-drive\android-avd\.android\build-cache\5e3f20de7f7f31447bede1c2e6c22fbebc347e3c\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] D:\c-drive\android-avd\.android\build-cache\8070461210d4813df494976e493e8bd9cdc070ba\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] D:\c-drive\android-avd\.android\build-cache\acba756de3be97cda9cfd612bea38191f6742203\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] D:\c-drive\android-avd\.android\build-cache\ec3a250da3144dae69f1f31d5849374abfb1a57a\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] D:\c-drive\android-avd\.android\build-cache\3a5f7b5373467964a44e07612e77fa93bfb950e1\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] D:\c-drive\android-avd\.android\build-cache\53a6c53d285a8050515d88407f6a60d646878fd3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] D:\c-drive\android-avd\.android\build-cache\a0de32edad9b806ae0256fa984ce68bb6377a073\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] D:\c-drive\android-avd\.android\build-cache\369d462d6ee8f65667faa7c22a88d22e3dc93ce3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] D:\c-drive\android-avd\.android\build-cache\0da5dfda598e0509407ed99e6366aa8df8afd354\output\AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\702b95d4cfac9b5d56c7a45b362d4a7b74bba5d1\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\git\android\RepeatingAlarm\Application\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:gridlayout-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\96661ac4d13160792d45ad9735143bbffdfdbc2d\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\c8422eb673b0635cb161ae9484e171e1e9a3f970\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\702b95d4cfac9b5d56c7a45b362d4a7b74bba5d1\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] D:\c-drive\android-avd\.android\build-cache\5e3f20de7f7f31447bede1c2e6c22fbebc347e3c\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] D:\c-drive\android-avd\.android\build-cache\8070461210d4813df494976e493e8bd9cdc070ba\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] D:\c-drive\android-avd\.android\build-cache\acba756de3be97cda9cfd612bea38191f6742203\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] D:\c-drive\android-avd\.android\build-cache\ec3a250da3144dae69f1f31d5849374abfb1a57a\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] D:\c-drive\android-avd\.android\build-cache\3a5f7b5373467964a44e07612e77fa93bfb950e1\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] D:\c-drive\android-avd\.android\build-cache\53a6c53d285a8050515d88407f6a60d646878fd3\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] D:\c-drive\android-avd\.android\build-cache\a0de32edad9b806ae0256fa984ce68bb6377a073\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] D:\c-drive\android-avd\.android\build-cache\369d462d6ee8f65667faa7c22a88d22e3dc93ce3\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:gridlayout-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\96661ac4d13160792d45ad9735143bbffdfdbc2d\output\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:gridlayout-v7:26.1.0] D:\c-drive\android-avd\.android\build-cache\96661ac4d13160792d45ad9735143bbffdfdbc2d\output\AndroidManifest.xml:24:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] D:\c-drive\android-avd\.android\build-cache\0da5dfda598e0509407ed99e6366aa8df8afd354\output\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] D:\c-drive\android-avd\.android\build-cache\0da5dfda598e0509407ed99e6366aa8df8afd354\output\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] D:\c-drive\android-avd\.android\build-cache\0da5dfda598e0509407ed99e6366aa8df8afd354\output\AndroidManifest.xml:26:13-58

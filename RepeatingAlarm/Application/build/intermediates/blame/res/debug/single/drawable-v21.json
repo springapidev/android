@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\git\\android\\RepeatingAlarm\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "D:\\c-drive\\android-avd\\.android\\build-cache\\702b95d4cfac9b5d56c7a45b362d4a7b74bba5d1\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\git\\android\\RepeatingAlarm\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "D:\\c-drive\\android-avd\\.android\\build-cache\\369d462d6ee8f65667faa7c22a88d22e3dc93ce3\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\git\\android\\RepeatingAlarm\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "D:\\c-drive\\android-avd\\.android\\build-cache\\702b95d4cfac9b5d56c7a45b362d4a7b74bba5d1\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\git\\android\\RepeatingAlarm\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "D:\\c-drive\\android-avd\\.android\\build-cache\\702b95d4cfac9b5d56c7a45b362d4a7b74bba5d1\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]
