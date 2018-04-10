@@ -6,8 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.anky.albumgallerydemo.R;
-import com.anky.albumgallerydemo.model.GalleryPhotoAlbum;
+import com.coderbd.suppergallary.R;
+import com.coderbd.suppergallary.model.GalleryPhotoAlbum;
+
 
 public class GalleryAlbumAdapter extends CommonAdapter<GalleryPhotoAlbum> {
 	private Context mContext;

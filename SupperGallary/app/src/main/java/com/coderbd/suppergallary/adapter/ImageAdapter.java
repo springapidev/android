@@ -13,9 +13,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.anky.albumgallerydemo.R;
-import com.anky.albumgallerydemo.model.MediaObject;
-import com.anky.albumgallerydemo.utils.ProcessGalleryFile;
+import com.coderbd.suppergallary.R;
+import com.coderbd.suppergallary.model.MediaObject;
+import com.coderbd.suppergallary.utils.ProcessGalleryFile;
+
 
 public class ImageAdapter extends CommonAdapter<MediaObject> {
     private static final String TAG = ImageAdapter.class.getSimpleName();

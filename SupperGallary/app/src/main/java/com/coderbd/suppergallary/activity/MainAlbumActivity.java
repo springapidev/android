@@ -24,6 +24,7 @@ import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.ViewFlipper;
 
+import com.coderbd.suppergallary.R;
 import com.coderbd.suppergallary.adapter.GalleryAlbumAdapter;
 import com.coderbd.suppergallary.adapter.ImageAdapter;
 import com.coderbd.suppergallary.model.GalleryPhotoAlbum;
