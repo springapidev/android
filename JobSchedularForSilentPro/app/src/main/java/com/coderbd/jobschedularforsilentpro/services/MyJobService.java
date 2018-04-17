@@ -4,7 +4,7 @@ import android.app.job.JobParameters;
 import android.app.job.JobService;
 
 /**
- * Created by Rajail Islam on 11/8/2017.
+ * Created by Rajaul Islam on 11/8/2017.
  */
 
 public class MyJobService extends JobService {

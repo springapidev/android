@@ -13,10 +13,10 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
     private AudioManager myAudioManager;
     @Override
     public void onReceive(Context context, Intent intent) {
-      //  mp=MediaPlayer.create(context, R.raw.alrm   );
-      //  mp.start();
-        makePhoneSilent();
-        Toast.makeText(context, "Silence....", Toast.LENGTH_LONG).show();
+    mp=MediaPlayer.create(context, R.raw.alrm );
+      mp.start();
+        //makePhoneSilent();
+        //Toast.makeText(context, "Silence....", Toast.LENGTH_LONG).show();
 
     }
     public void makePhoneSilent(){

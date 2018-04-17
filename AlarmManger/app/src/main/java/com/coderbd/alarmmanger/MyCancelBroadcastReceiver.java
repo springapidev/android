@@ -7,7 +7,7 @@ import android.media.AudioManager;
 import android.widget.Toast;
 
 /**
- * Created by Rajail Islam on 11/3/2017.
+ * Created by Rajaul Islam on 11/3/2017.
  */
 
 public class MyCancelBroadcastReceiver extends BroadcastReceiver {
