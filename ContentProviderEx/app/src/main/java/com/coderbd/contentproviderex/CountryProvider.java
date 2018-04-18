@@ -16,9 +16,7 @@ import android.util.Log;
 
 public class CountryProvider extends ContentProvider {
     private CountryDatabase mOpenHelper;
-
     private static String TAG = CountryProvider.class.getSimpleName();
-
     // Checks for valid URIs
     private static UriMatcher sUriMatcher = buildUriMatcher();
 
