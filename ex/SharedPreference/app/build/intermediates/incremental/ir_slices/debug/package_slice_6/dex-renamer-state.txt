@@ -1,0 +1,4 @@
+#Tue Apr 10 22:43:33 BDT 2018
+base.0=E\:\\git\\Android-Apps-Development\\SharedPreference\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex
