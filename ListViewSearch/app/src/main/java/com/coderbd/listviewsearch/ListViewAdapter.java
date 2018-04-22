@@ -15,7 +15,6 @@ import android.widget.TextView;
 import android.view.View.OnClickListener;
 
 public class ListViewAdapter extends BaseAdapter {
-
 	// Declare Variables
 	Context mContext;
 	LayoutInflater inflater;
@@ -99,10 +98,8 @@ public class ListViewAdapter extends BaseAdapter {
 				mContext.startActivity(intent);
 			}
 		});
-
 		return view;
 	}
-
 	// Filter Class
 	public void filter(String charText) {
 		charText = charText.toLowerCase(Locale.getDefault());
