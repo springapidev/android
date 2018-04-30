@@ -15,7 +15,6 @@ import com.coderbd.calljavaapi.model.UserModel;
 public class AddActivity extends AppCompatActivity {
     EditText fn, ln, e;
     Button btnAdd;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         try {
@@ -26,13 +25,11 @@ public class AddActivity extends AppCompatActivity {
             e = (EditText) findViewById(R.id.edit_email);
             btnAdd = (Button) findViewById(R.id.btnAdd);
 
-
             btnAdd.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     try {
                         User user = new User();
-                        // user.setId(8L);
                         user.setFirstName(fn.getText().toString());
                         user.setLastName(ln.getText().toString());
                         user.setEmail(e.getText().toString());
@@ -51,8 +48,6 @@ public class AddActivity extends AppCompatActivity {
                         alBuilder.create().show();
 
                     }
-
-
                 }
             });
         } catch (Exception e) {
@@ -66,14 +61,11 @@ public class AddActivity extends AppCompatActivity {
     }
 
     private class HttpAddUser extends AsyncTask<User, Void, Boolean> {
-
-
         @Override
         protected Boolean doInBackground(User... params) {
             UserModel userModel = new UserModel();
             return userModel.create(params[0]);
         }
-
         @Override
         protected void onPostExecute(Boolean aBoolean) {
             super.onPostExecute(aBoolean);

@@ -16,7 +16,6 @@ import com.coderbd.calljavaapi.model.UserModel;
 public class DetailActivity extends AppCompatActivity {
     TextView fn, ln, e;
     Button btnEdit, btnDel;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         try {
@@ -37,8 +36,9 @@ public class DetailActivity extends AppCompatActivity {
             btnEdit.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
-
+                    Intent intent1=new Intent(DetailActivity.this, EditActivity.class);
+                    intent1.putExtra("user",user);
+                    startActivity(intent1);
                 }
             });
 
@@ -76,15 +76,11 @@ public class DetailActivity extends AppCompatActivity {
 
 
     private class HttpRequestDetail extends AsyncTask<Long, Void, Boolean> {
-
-
         @Override
         protected Boolean doInBackground(Long... longs) {
             UserModel userModel = new UserModel();
-
             return userModel.delete(longs[0]);
         }
-
         @Override
         protected void onPostExecute(Boolean aBoolean) {
             super.onPostExecute(aBoolean);

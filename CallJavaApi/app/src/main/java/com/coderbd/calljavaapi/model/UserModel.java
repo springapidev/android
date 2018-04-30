@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Rajail Islam on 4/22/2018.
+ * Created by Rajaul Islam on 4/22/2018.
  */
 
 public class UserModel {

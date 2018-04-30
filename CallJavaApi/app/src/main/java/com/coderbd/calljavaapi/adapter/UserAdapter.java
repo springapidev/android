@@ -15,7 +15,7 @@ import com.coderbd.calljavaapi.entity.User;
 import java.util.List;
 
 /**
- * Created by Rajail Islam on 4/22/2018.
+ * Created by Rajaul Islam on 4/22/2018.
  */
 
 public class UserAdapter extends ArrayAdapter<User> {
