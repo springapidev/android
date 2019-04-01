@@ -28,7 +28,7 @@
                 android:id="@+id/textView"
                 android:textSize="18sp" />
 
-            <TextView
+            <EditText
                 android:text="@string/not_assigned"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
