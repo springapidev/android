@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         helper = new MyDbAdapter(this);
         getProductlist();
 
+        listView.setOnItemSelectedListener(new View);
+
     }
 
     public void saveProduct(View view) {
@@ -34,6 +36,17 @@ public class MainActivity extends AppCompatActivity {
         } else {
             getProductlist();
             Message.message(this, "Successful");
+        }
+    }
+
+    public void updateProduct(View view) {
+        Product product = new Product(Integer.parseInt(id.getText().toString()),name.getText().toString(), Integer.parseInt(qty.getText().toString()));
+        long i = helper.updateData(product);
+        if (i < 0) {
+            Message.message(this, "Update Unsuccessful");
+        } else {
+            getProductlist();
+            Message.message(this, "Update Successful");
         }
     }
 
