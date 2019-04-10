@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "96591691423",
+    "firebase_url": "https://skhasina-eb5a3.firebaseio.com",
+    "project_id": "skhasina-eb5a3",
+    "storage_bucket": "skhasina-eb5a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96591691423:android:e77ed0442c90e61d",
+        "android_client_info": {
+          "package_name": "com.coderbd.gcmex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96591691423-tt66j4gb0tcrhff9k3mbne7tnjiik04r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJUGrIPpIJPzdFq6S7gV6rRvprdsOV0Gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96591691423-tt66j4gb0tcrhff9k3mbne7tnjiik04r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
