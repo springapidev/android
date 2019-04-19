@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\git\\android\\SqliteCrud\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\c-drive\\android-avd\\.android\\build-cache\\5f9a2dce7ab187429ee01717e3a3d4564bb67ffd\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\git\\android\\SqliteCrud\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\c-drive\\android-avd\\.android\\build-cache\\5f9a2dce7ab187429ee01717e3a3d4564bb67ffd\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\git\\android\\SqliteCrud\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\c-drive\\android-avd\\.android\\build-cache\\5f9a2dce7ab187429ee01717e3a3d4564bb67ffd\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\git\\android\\SqliteCrud\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\c-drive\\android-avd\\.android\\build-cache\\5f9a2dce7ab187429ee01717e3a3d4564bb67ffd\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]
