@@ -1,11 +1,9 @@
 package com.coderbd.calljavaapi.model;
 
-import android.util.Log;
-
 import com.coderbd.calljavaapi.entity.User;
 import com.coderbd.calljavaapi.util.BaseUrl;
-import org.json.JSONObject;
 
+import org.json.JSONObject;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -13,7 +11,6 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.web.client.RestTemplate;
 
-import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

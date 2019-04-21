@@ -1,0 +1,7 @@
+#Tue Oct 24 17:07:33 BDT 2017
+base.0=E\:\\git\\android\\SqliteCrud\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_69c403844a70e51393eb82451e671f5640b25d8d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\git\\android\\SqliteCrud\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_234095707d55eaeed01bc453ba2bc96ef27df0cb\\classes.dex
+base.1=E\:\\git\\android\\SqliteCrud\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_234095707d55eaeed01bc453ba2bc96ef27df0cb
+file.0=E\:\\git\\android\\SqliteCrud\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_69c403844a70e51393eb82451e671f5640b25d8d\\classes.dex

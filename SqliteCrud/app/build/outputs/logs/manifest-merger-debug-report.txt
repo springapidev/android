@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml
+		INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml
+		INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml
+		INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\5f9a2dce7ab187429ee01717e3a3d4564bb67ffd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\c7b273ad990b8fbc33b3d70d1bd3a4b69e1652b6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\cbd7026197364aae5cd08f020ca35af9ac9086ad\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\3009dea9fd14c5b3d978a099fe75010b044dbc20\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\79a44b84af5a8018e84cf5dbd9c794b5f2afce52\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\d28a183e3d095abcc3fb5d7faa8b4d9488afbfb7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\d1b4cec3b7628b96a87d20b0103b89ce63ce4be2\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\fe891825a5855532ccea7ff750f6df5546a78c14\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\b418acafff6a96d41a3b156c037f938d5020bacd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] D:\c-drive\android-avd\.android\build-cache\2821724ddf014f655762895bd351cbaf45494b47\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.coderbd.sqlitecrud.MainActivity
+ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\5f9a2dce7ab187429ee01717e3a3d4564bb67ffd\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\c7b273ad990b8fbc33b3d70d1bd3a4b69e1652b6\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\cbd7026197364aae5cd08f020ca35af9ac9086ad\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\3009dea9fd14c5b3d978a099fe75010b044dbc20\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\79a44b84af5a8018e84cf5dbd9c794b5f2afce52\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\d28a183e3d095abcc3fb5d7faa8b4d9488afbfb7\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\d1b4cec3b7628b96a87d20b0103b89ce63ce4be2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\fe891825a5855532ccea7ff750f6df5546a78c14\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\b418acafff6a96d41a3b156c037f938d5020bacd\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] D:\c-drive\android-avd\.android\build-cache\2821724ddf014f655762895bd351cbaf45494b47\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\5f9a2dce7ab187429ee01717e3a3d4564bb67ffd\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml
+		INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml
+		INJECTED from E:\git\android\SqliteCrud\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\5f9a2dce7ab187429ee01717e3a3d4564bb67ffd\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\c7b273ad990b8fbc33b3d70d1bd3a4b69e1652b6\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\cbd7026197364aae5cd08f020ca35af9ac9086ad\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\3009dea9fd14c5b3d978a099fe75010b044dbc20\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\79a44b84af5a8018e84cf5dbd9c794b5f2afce52\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\d28a183e3d095abcc3fb5d7faa8b4d9488afbfb7\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\d1b4cec3b7628b96a87d20b0103b89ce63ce4be2\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\fe891825a5855532ccea7ff750f6df5546a78c14\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\b418acafff6a96d41a3b156c037f938d5020bacd\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\5f9a2dce7ab187429ee01717e3a3d4564bb67ffd\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] D:\c-drive\android-avd\.android\build-cache\5f9a2dce7ab187429ee01717e3a3d4564bb67ffd\output\AndroidManifest.xml:26:9-47
