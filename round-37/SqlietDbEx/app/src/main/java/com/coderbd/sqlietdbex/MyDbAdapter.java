@@ -7,17 +7,13 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
-
 import java.util.ArrayList;
 import java.util.List;
-
 public class MyDbAdapter {
     MyDbHelper helper;
-
     public MyDbAdapter(Context context) {
         this.helper = new MyDbHelper(context);
     }
-
     static class MyDbHelper extends SQLiteOpenHelper {
         // Database Information
         static final String DB_NAME = "PROD.DB";
@@ -63,14 +59,7 @@ public class MyDbAdapter {
         long id = db.insert(MyDbHelper.TABLE_NAME, null, cv);
         return id;
     }
-    public long updateData(Product product) {
-        SQLiteDatabase db = helper.getWritableDatabase();
-        ContentValues cv = new ContentValues();
-        cv.put(MyDbHelper.PRODUCT_NAME, product.getProductname());
-        cv.put(MyDbHelper.QTY, product.getQuantity());
-        long id = db.update(MyDbHelper.TABLE_NAME,cv,MyDbHelper.ID+"="+String.valueOf(product.getId()),null);
-        return id;
-    }
+
     public List<Product> getList() {
         SQLiteDatabase db = helper.getReadableDatabase();
         String[] projection = {MyDbHelper.ID,
