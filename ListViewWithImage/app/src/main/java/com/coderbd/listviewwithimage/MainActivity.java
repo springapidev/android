@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        simpleListView=(ListView)findViewById(R.id.simpleListView);
+
         simpleListView = (ListView) findViewById(R.id.simpleListView);
         CustomAdapter customAdapter = new CustomAdapter(getApplicationContext(), countryList, flags);
         simpleListView.setAdapter(customAdapter);
